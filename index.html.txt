@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ImperionWxx</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1.2em;
+        margin-bottom: 30px;
+    }
+
+    .telegram-btn {
+        background-color: #0088cc;
+        color: white;
+        padding: 15px 30px;
+        font-size: 18px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .telegram-btn:hover {
+        background-color: #0077b5;
+        transform: scale(1.05);
+    }
+</style>
+
+</head>
+<body>
+
+<h1>Únete a ImperionWxx 🚀</h1>
+<p>Haz clic abajo para entrar directo al canal</p>
+
+<a class="telegram-btn" href="https://t.me/imperionWxx" target="_blank">
+    Entrar al canal de Telegram
+</a>
+
+</body>
+</html>
