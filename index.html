@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ImperionWxx</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #ffffff;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 16px;
+      width: 90%;
+      max-width: 280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: #0088cc;
+      color: white;
+      padding: 14px 0;
+      font-size: 15px;
+      text-decoration: none;
+      border-radius: 999px;
+      width: 100%;
+      max-width: 220px;
+      font-weight: 500;
+    }
+
+    .btn img {
+      width: 20px;
+      height: 20px;
+    }
+
+    .lang-btn {
+      margin-top: 12px;
+      font-size: 12px;
+      background: none;
+      border: none;
+      color: #0088cc;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <a class="btn" href="https://t.me/imperionWxx" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png">
+      <span id="btnText">Open in Telegram</span>
+    </a>
+
+    <button class="lang-btn" onclick="toggleLang()">Español</button>
+
+  </div>
+
+  <script>
+    let isEnglish = true;
+
+    function toggleLang() {
+      const btnText = document.getElementById("btnText");
+
+      if (isEnglish) {
+        btnText.innerText = "Abrir en Telegram";
+      } else {
+        btnText.innerText = "Open in Telegram";
+      }
+
+      isEnglish = !isEnglish;
+    }
+  </script>
+
+</body>
+</html>
